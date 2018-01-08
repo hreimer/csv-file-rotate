@@ -1,0 +1,34 @@
+{
+  "name": "csv-file-rotate",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hreimer/csv-file-rotate.git"
+  },
+  "version": "0.0.1",
+  "description": "a Node-RED node to save daily rotating csv (log) files",
+  "main": "node-flow.js",
+  "dependencies": {
+    "winston": "2.4.0",
+    "winston-daily-rotate-file": "1.7.2",
+    "mkdirp": "0.5.1"
+  },
+  "_location": "/csv-file-rotate",
+  "node-red": {
+    "nodes": {
+      "csv-file-rotate": "csv-file-rotate/csv-file-rotate.js"     
+    }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heinrich Reimer",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
