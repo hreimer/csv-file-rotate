@@ -10,13 +10,13 @@
   "main": "node-flow.js",
   "dependencies": {
     "winston": "2.4.0",
-    "winston-daily-rotate-file": "1.7.2",
+    "winston-daily-rotate-file": "4.7.1",
     "mkdirp": "0.5.1"
   },
   "_location": "/csv-file-rotate",
   "node-red": {
     "nodes": {
-      "csv-file-rotate": "csv-file-rotate/csv-file-rotate.js"     
+      "csv-file-rotate": "csv-file-rotate/csv-file-rotate.js"
     }
   },
   "devDependencies": {},
