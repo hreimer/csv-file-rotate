@@ -11,12 +11,12 @@
   "dependencies": {
     "winston": "2.4.0",
     "winston-daily-rotate-file": "1.7.2",
-    "mkdirp": "0.5.1"
+    "mkdirp": "1.0.4"
   },
   "_location": "/csv-file-rotate",
   "node-red": {
     "nodes": {
-      "csv-file-rotate": "csv-file-rotate/csv-file-rotate.js"     
+      "csv-file-rotate": "csv-file-rotate/csv-file-rotate.js"
     }
   },
   "devDependencies": {},
