@@ -9,7 +9,7 @@
   "description": "a Node-RED node to save daily rotating csv (log) files",
   "main": "node-flow.js",
   "dependencies": {
-    "winston": "3.8.1",
+    "winston": "3.11.0",
     "winston-daily-rotate-file": "4.7.1",
     "mkdirp": "1.0.4"
   },
